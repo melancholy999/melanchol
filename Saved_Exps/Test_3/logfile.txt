@@ -1,0 +1,40 @@
+Monte Carlo REINFORCE Policy Gradient with Baseline algorithm 
+Author: Varshil Gandhi 
+Date: 16th December, 2018 
+Algo Source: David Silver Lectures & Rich Sutton RL Book
+
+The variables used in the experiment:
+-----------------------------------------------
+|  gamma  :  0.99  |
+|  V_MODEL_DIR  :  v_model/  |
+|  test_ep  :  100  |
+|  P_MODEL_DIR  :  p_model/  |
+|  env_id  :  LunarLander-v2  |
+|  save_period  :  100  |
+|  v_learning_rate  :  0.005  |
+|  np_seed  :  0  |
+|  task  :  train  |
+|  p_learning_rate  :  0.005  |
+|  render  :  True  |
+|  tf_seed  :  0  |
+|  SAVE_DIR  :  Saved_Exps/  |
+|  test_env_seed_no  :  1  |
+|  num_ep  :  5000  |
+|  exp_no  :  None  |
+
+Value Model Parameters
+_____________________________________________
+| Neurons in the First Hidden Layer |  32   |
+| Neurons in the Second Hidden Layer|  32   |
+| Std Deviation in weights of Layers|  0.18 |
+| Constant in bias vectors of Layers|  0.1  |
+| Regularization Constant           |  0.1  |
+_____________________________________________
+
+Policy Model Parameters
+_____________________________________________
+| Neurons in the First Hidden Layer |  32   |
+| Neurons in the Second Hidden Layer|  16   |
+| Std Deviation in weights of Layers|  0.28 |
+| Constant in bias vectors of Layers|  0.1  |
+_____________________________________________
