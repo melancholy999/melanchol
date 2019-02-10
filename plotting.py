@@ -56,10 +56,6 @@ def animate(i):
         fig2.savefig('Fig_2.png')
         quit()
     
-def onClick(event):
-    global pause
-    pause ^= True
-    
 ani1 = animation.FuncAnimation(fig1, animate, interval=1000)
 ani2 = animation.FuncAnimation(fig2, animate, interval=1000)
 plt.show()
