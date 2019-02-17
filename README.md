@@ -1,5 +1,5 @@
 # Lunar-Lander-RL
-This code base is an attempt to design an agent using Monte-Carlo Policy Gradient algorithm without / with baseline function. 
+This code base is an attempt to design an agent using Monte-Carlo Policy Gradient algorithm with baseline function. 
 <p align="center">
   <img src="images/rl-p2.gif" align="center" width="500" height="350">
 </p>
