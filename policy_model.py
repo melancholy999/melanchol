@@ -26,7 +26,7 @@ class MLP_model():
         self.n_hidden_1 = 32
         self.n_hidden_2 = 32
         self.std_dev = 0.2
-        self.bias_constant = 0
+        self.bias_constant = 0.0
         self.reg = 0		# Optional
         
         with tf.name_scope('inputs'):
