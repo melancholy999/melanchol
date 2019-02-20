@@ -8,7 +8,7 @@ This code base is an attempt to design an agent using Monte-Carlo Policy Gradien
 1. ``` git clone ``` the repository.
 2. Enter the directory of the repository. ```cd Lunar-Lander-RL``` and open two terminal windows.
 3. **Training**: Terminal window 1 command ```python3 reinforce_baseline.py --task train``` 
-4. To visualize live plots: Terminal window 2 command ``` python plotting.py ```
+4. **To visualize live plots**: Terminal window 2 command ``` python plotting.py ```
 5. You can change almost all variables by changing its value in reinforce_baseline.py.
 6. After completion, the directory will have two new .txt files, two image files and two directories with saved models. Do not change the location of those files before testing.
 7. **Testing**: ``` python reinforce_baseline.py --task train --exp_no 1 ``` . You need to change the experiment number 1 to any integer k as it represents the folder in ```Saved_Exps/Test_k``` where all the results will be saved.
