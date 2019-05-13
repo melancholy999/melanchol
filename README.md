@@ -17,7 +17,7 @@ This code base is an attempt to design an agent using Monte-Carlo Policy Gradien
 Around 20 experiments were done with varyng hyperparameters and the best result in terms of solving the task - getting 200+ reward for 100 consequtive episodes in the least number of episodes is ```Test_11```. There were some tests which scored more rewards on 100 consequtive episodes than the model in Test_11. Each folder has a ```logfile.txt``` representing the hyperparams value, ```test_log.txt``` for test results, ```reward_log.txt``` for episode logs during training. 
 
 ## Dependencies
-- Tesnorflow
+- Tensorflow
 - Gym
 - Numpy
 - MatPlotLib
